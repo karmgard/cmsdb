@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+ 	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/mainScreen"
+   	    android:layout_width="match_parent"
+   	   	android:layout_height="match_parent"
+   	    android:baselineAligned="false"
+   	    android:gravity="top|left"
+   	    android:background="#000000"
+   	    android:orientation="vertical">
+	
+        <FrameLayout
+	    	android:id="@+id/holder"
+	   		android:orientation="vertical"
+    		android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+	   	    android:background="#000000">
+	 
+			<!--  OpenGL Fragment Container-->
+	 		<LinearLayout
+	    		android:id="@+id/opengl_container"
+   	    		android:layout_width="match_parent"
+   	   			android:layout_height="wrap_content"
+   	    		android:baselineAligned="false"
+   	    		android:orientation="vertical">
+    		</LinearLayout>
+    	
+			<LinearLayout
+		    	android:id="@+id/list_container"
+    			android:layout_width="280dp"
+    			android:layout_height="wrap_content"
+    			android:orientation="horizontal"
+    			android:background="@android:color/transparent"
+       			android:layout_gravity="left">
+
+    			<fragment
+	    			android:id="@+id/menu_fragment"
+	       			android:name="ch.cern.cms.data_browser.expListFragment"
+	       			android:layout_width="match_parent"
+	       			android:layout_height="wrap_content"/>
+		
+	        </LinearLayout>
+
+			<!-- Add/Edit track fragment container -->
+			<LinearLayout
+		    	android:id="@+id/addtrack_container"
+    			android:layout_width="340dp"
+    			android:layout_height="wrap_content"
+    			android:orientation="horizontal"
+    			android:background="@android:color/transparent"
+       			android:layout_gravity="right">
+
+    			<fragment
+	    			android:id="@+id/track_fragment"
+	       			android:name="ch.cern.cms.data_browser.TrackFragment"
+	       			android:layout_width="match_parent"
+	       			android:layout_height="wrap_content"/>
+		
+        	</LinearLayout>
+        	
+			<!-- End Add/Edit track fragment -->
+	 		<LinearLayout
+    			android:id="@+id/data_controls_container" 
+	   			android:orientation="horizontal"
+    			android:layout_width="match_parent"
+       			android:layout_height="match_parent"
+       			android:gravity="bottom|left">
+	    
+		    	<fragment
+    		   		android:id="@+id/simulate_fragment"
+        			android:name="ch.cern.cms.data_browser.SimulateFragment"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"/>
+    
+		    	<fragment
+    				android:id="@+id/explore_fragment"
+       				android:name="ch.cern.cms.data_browser.ExploreFragment"
+       				android:layout_width="match_parent"
+       				android:layout_height="wrap_content"/>
+		    
+   	   		</LinearLayout> <!--  End of data_controls_container -->
+   	   	
+		</FrameLayout>
+
+	</LinearLayout>   <!--  End of mainScreen layout -->

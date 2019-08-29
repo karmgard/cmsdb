@@ -1,0 +1,125 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Manual/
+* Manual/appendixa.aux
+* Manual/appendixa.log
+* Manual/appendixa.out
+* Manual/appendixa.tex
+* Manual/appendixb.aux
+* Manual/appendixb.tex
+* Manual/appendixc.aux
+* Manual/appendixc.tex
+* Manual/cms_data_browser_user_guide.aux
+* Manual/cms_data_browser_user_guide.dvi
+* Manual/cms_data_browser_user_guide.lof
+* Manual/cms_data_browser_user_guide.log
+* Manual/cms_data_browser_user_guide.out
+* Manual/cms_data_browser_user_guide.pdf
+* Manual/cms_data_browser_user_guide.tex
+* Manual/cms_data_browser_user_guide.toc
+* Manual/graphics/
+* Manual/graphics/addedit.png
+* Manual/graphics/addedtrack.png
+* Manual/graphics/addtrack.png
+* Manual/graphics/animate.png
+* Manual/graphics/animate.png.old
+* Manual/graphics/channels.png
+* Manual/graphics/cmshiggs.png
+* Manual/graphics/cmshiggs_pt_1_5_landscape.png
+* Manual/graphics/collections.png
+* Manual/graphics/controls.png
+* Manual/graphics/data.png
+* Manual/graphics/display.png
+* Manual/graphics/edit_display_landscape.png
+* Manual/graphics/edit_landscape.png
+* Manual/graphics/explore.png
+* Manual/graphics/filters.png
+* Manual/graphics/first_run.png
+* Manual/graphics/graphics.png
+* Manual/graphics/homeview.png
+* Manual/graphics/hto4l.png
+* Manual/graphics/hto4l_clean.png
+* Manual/graphics/ic_action_camera.png
+* Manual/graphics/ic_action_cancel.png
+* Manual/graphics/ic_action_collapse.png
+* Manual/graphics/ic_action_discard.png
+* Manual/graphics/ic_action_edit.png
+* Manual/graphics/ic_action_expand.png
+* Manual/graphics/ic_action_new.png
+* Manual/graphics/ic_action_next_item.png
+* Manual/graphics/ic_action_pause.png
+* Manual/graphics/ic_action_play.png
+* Manual/graphics/ic_action_previous_item.png
+* Manual/graphics/ic_action_share.png
+* Manual/graphics/ic_action_stop.png
+* Manual/graphics/ic_action_video.png
+* Manual/graphics/ic_launcher.png
+* Manual/graphics/mainmenu.png
+* Manual/graphics/opaque.png
+* Manual/graphics/pathdetails.png
+* Manual/graphics/settings_controls.png
+* Manual/graphics/simulation.png
+* Manual/graphics/simulations.png
+* Manual/graphics/title_figure.png
+* Manual/graphics/transparent.png
+* Manual/graphics/upsilon.png
+* Manual/graphics/xyview.png
+* Manual/graphics/yzview.png
+* Manual/header.tex
+* Manual/quickstart.pdf
+* Model/
+* Model/axes.ser
+* Model/caps.ser
+* Model/cryo.ser
+* Model/ecal.ser
+* Model/hcal.ser
+* Model/hits.ser
+* Model/trkr.ser
+* Model/yoke.ser
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/jpct_ae.jar => app/libs/jpct_ae.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMS Data Browser</string>
+    <string name="icon_description">Expand/Collapse</string>
+    <string name="title_home">CDB</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_options">Options</string>
+    <string name="action_settings_menu">Settings &#8230;</string>
+    <string name="action_data_menu">Data &#8230;</string>
+    <string name="action_social_menu">Social &#8230;</string>
+    <string name="action_view_menu">Views &#8230;</string>
+    <string name="action_program">Program</string>
+    <string name="action_graphics">Graphics</string>
+    <string name="action_tracks">Add/Edit Tracks</string>
+    <string name="action_simulate">Simulate Events</string>
+    <string name="action_explore">Explore Data</string>
+    <string name="action_screenshot">Snapshot</string>
+    <string name="action_share">Share</string>
+    <string name="graphics_done">Done</string>
+    <string name="prefLabel">Preferences</string>
+    <string name="action_home">Home</string>
+    <string name="action_xview">X View</string>
+    <string name="action_zview">Z View</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_prev">Prev</string>
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_next">Next</string>
+    <string name="action_new">New</string>
+    <string name="action_animate">Animate</string>
+	
+    <string name="prefs_zoom_speed">Zoom Speed</string>
+    <string name="prefs_rotate_speed">Rotation Speed</string>
+    <string name="prefs_wireframe">Wireframe</string>
+    <string name="prefs_hide_undetect">Hide Undetectable</string>
+    <string name="prefs_hide_underlying">Hide Underlying</string>
+    <string name="prefs_jet_opts">Jet Opts</string>
+	<string name="prefs_sim_opts">Sim Opts</string>
+	<string name="prefs_show_cone">Cones</string>
+	<string name="prefs_show_axis">Axis</string>
+	<string name="prefs_show_hadrons">Hadrons</string>
+	<string name="prefs_muon_opts">Muon Opts</string>
+	
+	<!-- 
+	<string name="prefs_muon_opts">&#956; Opts:</string>
+	-->
+	
+	<string name="prefs_show_tracker">Tracker</string>
+	<string name="prefs_show_standalone">StandAlone</string>
+	<string name="prefs_show_global">Global</string>
+	
+	<string name="prefs_max_time">Maximum Time</string>
+	<string name="prefs_track_res">Resolution</string>
+	<string name="prefs_line_width">Line Width</string>
+	<string name="prefs_debug">Debug Level</string>
+	<string name="prefs_animation_time">Animation Time</string>
+	<string name="prefs_animation_rate">Frame Rate</string>
+	<string name="prefs_default_button">Defaults</string>
+	<string name="prefs_use_xml">XML Descriptions</string>
+	<string name="prefs_use_data_xml">Data</string>
+	<string name="prefs_use_sim_xml">Simulations</string>
+	<string name="prefs_use_ext">External Storage</string>
+	
+	<!--  Add track fragment strings -->
+    <string name="action_track_add">Add</string>
+    <string name="action_track_edit">Edit</string>
+    <string name="action_track_cancel">Cancel</string>
+    <string name="action_track_discard">Discard</string>
+        <string name="action_track_back">Back</string>
+    
+	<!-- Preferences fragment strings -->
+	<string name="action_prefs_accept">Commit</string>
+	<string name="action_prefs_cancel">Cancel</string>
+
+    <string name="data_prompt">Collection</string>
+    <string name="run_prompt">Run</string>
+    <string name="event_prompt">Event</string>
+    <string name="simulate_prompt">Simulation</string>
+    <string name="channel_prompt">Channel</string>
+
+    <string name="main_view_text">This will be the detector view</string>
+    <string name="em_radio">e/&#947;</string>
+    <string name="hd_radio">K/&#960;</string>
+    <string name="mu_radio">&#956;/&#957;</string>
+    <string name="charge_label">Charge (e)</string>
+    <string name="type_label">Particle Type</string>
+    <string name="minus_one">-1</string>
+    <string name="zero">0</string>
+    <string name="plus_one">+1</string>
+    <string name="vertex_label">Vertex (cm)</string>
+    <string name="add_btn">Add</string>
+    <string name="clr_btn">Clear</string>
+    <string name="under_evt_check">Underlying Event</string>
+    <string name="px_init">P_x (GeV/c)</string>
+    <string name="py_init">P_y (GeV/c)</string>
+    <string name="pz_init">P_z (GeV/c)</string>
+    <string name="px_label">p&lt;sub&gt;&lt;small&gt;&lt;small&gt;x&lt;/small&gt;&lt;/small&gt;&lt;/sub&gt; (GeV/c)</string>
+    <string name="py_label">p&lt;sub&gt;&lt;small&gt;&lt;small&gt;y&lt;/small&gt;&lt;/small&gt;&lt;/sub&gt; (GeV/c)</string>
+    <string name="pz_label">p&lt;sub&gt;&lt;small&gt;&lt;small&gt;z&lt;/small&gt;&lt;/small&gt;&lt;/sub&gt; (GeV/c)</string>
+    
+	<string name="Pz">p&lt;sub&gt;&lt;small&gt;&lt;small&gt;z&lt;/small&gt;&lt;/small&gt;&lt;/sub&gt; = %s GeV/c</string>
+    <string name="PT">p&lt;sub&gt;&lt;small&gt;&lt;small&gt;T&lt;/small&gt;&lt;/small&gt;&lt;/sub&gt; = %s GeV/c</string>
+    <string name="PTMeV">p&lt;sub&gt;&lt;small&gt;&lt;small&gt;T&lt;/small&gt;&lt;/small&gt;&lt;/sub&gt; > %s MeV/c</string>
+    <string name="PTGeV">p&lt;sub&gt;&lt;small&gt;&lt;small&gt;T&lt;/small&gt;&lt;/small&gt;&lt;/sub&gt; > %s GeV/c</string>
+    <string name="PTMin">p&lt;sub&gt;&lt;small&gt;&lt;small&gt;T, Min&lt;/small&gt;&lt;/small&gt;&lt;/sub&gt;</string>
+    <string name="phi">\u03C6 = %d\u00B0</string>
+    <string name="eta">\u03B7 = %s</string>
+    <string name="e">E = %s GeV</string>
+  	<string name="vtx">Vertex = %d cm</string>
+    
+    <!-- Resources for the graphics settings fragments -->
+    <string name="showAllChk">All</string>
+    <string name="showTrkrChk">Trkr</string>
+    <string name="showEcalChk">Ecal</string>
+    <string name="showHcalChk">Hcal</string>
+    <string name="showCryoChk">Cryo</string>
+    <string name="showYokeChk">Yoke</string>
+    <string name="showCapsChk">Caps</string>
+    <string name="showAxesChk">Axes</string>
+    
+    <string name="trkr_info">This is the tracker</string>
+    <string name="ecal_info">This is the Electro-Magnetic Calorimeter</string>
+    <string name="hcal_info">This is the Hadron Calorimeter</string>
+    <string name="cryo_info">This is the Cryostat and Magnet housing</string>
+    <string name="yoke_info">This is the Yoke and Muon Detectors</string>
+    <string name="caps_info">These are the Encap detectors</string>
+    
+    <string-array name="items">
+    	<item>Program Settings</item>
+       	<item>Graphics Settings</item>
+    	<item>Add/Edit a Track</item>
+    	<item>Simulate Events</item>
+    	<item>Explore Data</item>
+    </string-array>
+
+    <string-array name="tracks">
+      <item>Track</item>
+      <item>New</item>
+    </string-array>
+
+    <string name="network_up">"Network Connection established"</string>
+    <string name="network_down">No Network Connection! Data is unavailable for download</string>
+    
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   	<item
+        android:id="@+id/action_exp_clear"
+        android:orderInCategory="106"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_remove"
+        android:title="@string/action_clear"/>
+   
+  	<item
+        android:id="@+id/action_exp_prev"
+        android:orderInCategory="107"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_previous_item"
+        android:title="@string/action_prev"/>
+   
+   	<item
+        android:id="@+id/action_exp_next"
+        android:orderInCategory="108"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_next_item"
+        android:title="@string/action_next"/>
+
+   	<!--
+   	<item
+        android:id="@+id/action_animate"
+        android:orderInCategory="109"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_video"
+        android:title="@string/action_animate"/>
+      -->
+</menu>

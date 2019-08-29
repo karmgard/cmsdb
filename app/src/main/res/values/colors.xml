@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffffff</color>
+	<color name="red">#ffee0000</color>
+	<color name="green">#ff00bb00</color>
+	<color name="blue">#ff0000bb</color>
+	<color name="lightblue">#ff00a0a0</color>
+	<color name="magenta">#ffff00ff</color>
+	<color name="grey">#ffa3a3a3</color>
+	<color name="yellow">#ffffff00</color>
+	<color name="brown">#ffa52a2a</color>
+	<color name="purple">#ff800080</color>
+	<color name="black">#ff000000</color>
+	<color name="orange">#ffffa500</color>
+	
+	<color name="addTrkTxt">#000000</color>
+	<color name="addTrkBkg">#ffffff</color>
+	
+	<color name="transparent">#11a5a5a5</color>
+	
+	<string-array name="colors">
+	  <item>color</item>
+	  <item>red</item>
+	  <item>green</item>
+	  <item>blue</item>
+	  <item>lightblue</item>
+	  <item>yellow</item>
+	  <item>magenta</item>
+	  <item>grey</item>
+	  <item>black</item>
+	  <item>white</item>
+	  <item>brown</item>
+	  <item>purple</item>
+	</string-array>    
+</resources>

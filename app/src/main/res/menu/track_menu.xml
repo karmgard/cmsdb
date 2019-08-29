@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+		<item
+        	android:id="@+id/action_track_add"
+        	android:orderInCategory="110"
+        	android:showAsAction="always"
+        	android:icon="@drawable/ic_action_new"
+        	android:title="@string/action_track_add"/>
+    
+		<item
+        	android:id="@+id/action_track_edit"
+        	android:orderInCategory="111"
+        	android:showAsAction="always"
+        	android:icon="@drawable/ic_action_edit"
+        	android:title="@string/action_track_edit"/>
+    
+       <item
+        	android:id="@+id/action_track_cancel"
+        	android:orderInCategory="112"
+        	android:showAsAction="always"
+        	android:icon="@drawable/ic_action_cancel"
+        	android:title="@string/action_track_cancel"/>
+       
+       <item
+        	android:id="@+id/action_track_discard"
+        	android:orderInCategory="113"
+        	android:showAsAction="always"
+        	android:icon="@drawable/ic_action_discard"
+        	android:title="@string/action_track_discard"/>
+       <!--
+       <item
+        	android:id="@+id/action_track_back"
+        	android:orderInCategory="114"
+        	android:showAsAction="always"
+        	android:icon="@drawable/ic_action_back"
+        	android:title="@string/action_track_back"/>
+         -->
+</menu>

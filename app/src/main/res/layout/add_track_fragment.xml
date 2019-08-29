@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/addTrkBkg"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="4dp"
+    android:paddingLeft="8dp"
+    android:orientation="vertical" >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/typeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:paddingTop="5dp"
+        android:text="@string/type_label"
+	    android:textColor="@color/addTrkTxt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/typeRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingTop="0dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/typeEMRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		    android:textColor="@color/addTrkTxt"
+            android:text="@string/em_radio" />
+
+        <RadioButton
+            android:id="@+id/typeHDRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+		    android:textColor="@color/addTrkTxt"
+            android:text="@string/hd_radio" />
+
+        <RadioButton
+            android:id="@+id/typeMURadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		    android:textColor="@color/addTrkTxt"
+            android:text="@string/mu_radio" />
+    </RadioGroup>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/chargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:paddingTop="4dp"
+        android:text="@string/charge_label"
+	    android:textColor="@color/addTrkTxt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/chargeRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="46dp"
+        android:paddingTop="0dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/chargeMinusRadio"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+		    android:textColor="@color/addTrkTxt"
+            android:text="@string/minus_one" />
+
+        <RadioButton
+            android:id="@+id/chargeZeroRadio"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+		    android:textColor="@color/addTrkTxt"
+            android:text="@string/zero" />
+
+        <RadioButton
+            android:id="@+id/chargePlusRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		    android:textColor="@color/addTrkTxt"
+            android:text="@string/plus_one" />
+
+    </RadioGroup>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/pxLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/px_init"
+	    android:textColor="@color/addTrkTxt"
+		android:paddingTop="8dp"
+		android:paddingRight="48dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/pxEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:ems="8"
+        android:inputType="numberDecimal|numberSigned"/>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/pyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/py_init"
+	 	android:paddingTop="8dp"
+		android:paddingRight="48dp"
+	    android:textColor="@color/addTrkTxt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/pyEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:ems="8"
+        android:inputType="numberDecimal|numberSigned" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/pzLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pz_init"
+	    android:textColor="@color/addTrkTxt"
+		android:paddingTop="8dp"
+		android:paddingRight="48dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/pzEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:ems="8"
+        android:inputType="numberDecimal|numberSigned" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/vtxLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vertex_label"
+	    android:textColor="@color/addTrkTxt"
+		android:paddingTop="8dp"
+		android:paddingRight="38dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/vtxEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:ems="8"
+        android:inputType="numberSigned" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingTop="8dp">
+
+    <Spinner
+        android:id="@+id/trkSpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/tracks"
+		android:paddingRight="24dp" />
+
+    <Spinner
+        android:id="@+id/clrSpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/colors"
+		android:paddingRight="24dp"/>
+
+  </LinearLayout>
+
+</LinearLayout>

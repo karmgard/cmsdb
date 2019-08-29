@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "29.0.0"
+    useLibrary  'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "ch.cern.cms.data_browser"
+        minSdkVersion 14
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation files('libs/jpct_ae.jar')
+}

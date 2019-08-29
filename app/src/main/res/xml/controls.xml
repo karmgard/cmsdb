@@ -1,0 +1,1107 @@
+<list>
+  <name>Controls</name>
+  <listLayout>list_group</listLayout>
+
+  <groups>
+    <!-- Begin Data group -->
+    <group>
+      <title>Data</title>
+      <groupLayout>list_group</groupLayout>
+      <textViewID>list_group_header</textViewID>
+      <iconID>list_group_icon</iconID>
+      <groupEnabled>true</groupEnabled>
+
+      <items>
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>Add/Edit</itemName>
+	  <label>Add or edit particle properties</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Add/Edit</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Simulate</itemName>
+	  <label>Simulate data from proton-proton collisions</label>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Simulate</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Explore</itemName>
+	  <label>Explore data from the CMS Experiment</label>
+
+	  <widgets>
+	    <widget>
+	      <type>Text</type>
+	      <text>Explore</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<!--
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Animate</itemName>
+	  <label>Animate the current event</label>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Animate</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+
+      </item>
+	-->
+    </items>
+
+    <!-- End of group Data -->
+    </group>
+
+    <!-- Begin Display group -->
+    <group>
+      <title>Display</title>
+      <groupLayout>list_group</groupLayout>
+      <textViewID>list_group_header</textViewID>
+      <iconID>list_group_icon</iconID>
+      <groupEnabled>true</groupEnabled>
+
+      <items>
+
+	<!--
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Detector</itemName>
+	  <label>Show the detector</label>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Detector</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+	-->
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Response</itemName>
+	  <label>Show the response view</label>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Detector Response</text>
+	      <state>false</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Paths</itemName>
+	  <label>Show the particle paths</label>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Particle Paths</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Electrons</itemName>
+	  <label>Show electrons and positrons</label>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Electrons</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Photons</itemName>
+	  <label>Show photons</label>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Photons</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Tracks</itemName>
+	  <label>Show tracks</label>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Tracks</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>JetMet</itemName>
+	  <label>Show hadrons and missing energy</label>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Jets/MET</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Muons</itemName>
+	  <label>Show muons</label>
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Muons</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+      </items>
+      <!-- End of Display group -->
+    </group>
+
+    <!-- Begin Filters group -->
+    <group>
+      <title>Filters</title>
+      <groupLayout>list_group</groupLayout>
+      <textViewID>list_group_header</textViewID>
+      <iconID>list_group_icon</iconID>
+      <groupEnabled>true</groupEnabled>
+
+      <items>
+
+	<!-- Jet options -->
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>JetFilters</itemName>
+	  <label>Hadron display options</label>
+	  <itemEnabled>true</itemEnabled>
+	  <selectable>false</selectable>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Jet Filters</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemName>JetAxis</itemName>
+	  <label>Show the jet axis</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Axis</text>
+	      <state>false</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemName>JetCone</itemName>
+	  <label>Show the jet cone</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <state>false</state>
+	      <text>Cone</text>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemName>JetHadrons</itemName>
+	  <label>Show individual hadrons</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Hadrons</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<!-- Muon display options -->
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>MuonFilters</itemName>
+	  <label>Muon display options</label>
+	  <itemEnabled>true</itemEnabled>
+	  <selectable>false</selectable>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Muon Filters</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemName>TrackerMuons</itemName>
+	  <label>Show tracker muons</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Tracker</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemName>StandAloneMuons</itemName>
+	  <label>Show standalone muons</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>StandAlone</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemName>GlobalMuons</itemName>
+	  <label>Show global muons</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Global</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<!-- Simulation display options -->
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>SimFilters</itemName>
+	  <label>Simulation display options</label>
+	  <itemEnabled>true</itemEnabled>
+	  <selectable>false</selectable>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Simulation Filters</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemName>UnderlyingEvent</itemName>
+	  <label>Show the underlying event</label>
+	  <itemEnabled>true</itemEnabled>
+	  
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Underlying Event</text>
+	      <state>true</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  
+	  <itemLayout>list_item_switch</itemLayout>
+	  <itemName>Undetectable</itemName>
+	  <label>Only show detectable paths</label>
+	  <itemEnabled>true</itemEnabled>
+	  
+	  <widgets>
+	    <widget>
+	      <type>switch</type>
+	      <text>Undetectable</text>
+	      <state>false</state>
+	      <widgetID>state_switch</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+      </items>
+      <!-- End of the filters group -->
+    </group>
+
+    <!-- Begin Selections group
+    <group>
+      <title>Selections</title>
+      <groupLayout>list_group</groupLayout>
+      <textViewID>list_group_header</textViewID>
+      <iconID>list_group_icon</iconID>
+      <groupEnabled>true</groupEnabled>
+
+      <items>
+
+	<item>
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Emin</itemName>
+	  <label>Set the threshold enery</label>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>500</value>
+	      <maximum>25000</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>emin</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>emin</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemEnabled>true</itemEnabled>
+	  <itemName>Ptmin</itemName>
+	  <label>Set the threshold momentum</label>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>1000</value>
+	      <maximum>25000</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>ptmin</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>ptmin</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+      </items>
+
+    </group>
+      End of Selections group -->
+
+    <!-- Begin Graphic Controls group -->
+    <group>
+      <title>Graphics</title>
+      <groupLayout>list_group</groupLayout>
+      <textViewID>list_group_header</textViewID>
+      <iconID>list_group_icon</iconID>
+      <groupEnabled>true</groupEnabled>
+
+      <items>
+
+	<item>
+	  <itemLayout>list_item_check_slider</itemLayout>
+	  <itemName>TransAll</itemName>
+	  <label>Set all detector groups to the same value at once</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      	<type>checkbox</type>
+		<text>All</text>
+		<state>true</state>
+		<widgetID>state_check</widgetID>
+	    </widget>
+
+	    <widget>
+	      <type>slider</type>
+	      <text>All</text>
+	      <value>127</value>
+	      <maximum>127</maximum>
+	      <widgetID>menu_slider</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_check_slider</itemLayout>
+	  <itemName>TransTrkr</itemName>
+	  <label>Control visibility of the tracker</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      	<type>checkbox</type>
+		<text>Trkr</text>
+		<state>true</state>
+		<widgetID>state_check</widgetID>
+	    </widget>
+
+	    <widget>
+	      <type>slider</type>
+	      <text>Trkr</text>
+	      <value>127</value>
+	      <maximum>127</maximum>
+	      <widgetID>menu_slider</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_check_slider</itemLayout>
+	  <itemName>TransEcal</itemName>
+	  <label>Control visibility of the EM Calorimeter</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      	<type>checkbox</type>
+		<text>ECal</text>
+		<state>true</state>
+		<widgetID>state_check</widgetID>
+	    </widget>
+
+	    <widget>
+	      <type>slider</type>
+	      <text>ECal</text>
+	      <value>127</value>
+	      <maximum>127</maximum>
+	      <widgetID>menu_slider</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_check_slider</itemLayout>
+	  <itemName>TransHcal</itemName>
+	  <label>Control visibility of the Hadronic Calorimeter</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      	<type>checkbox</type>
+		<text>HCal</text>
+		<state>true</state>
+		<widgetID>state_check</widgetID>
+	    </widget>
+
+	    <widget>
+	      <type>slider</type>
+	      <text>HCal</text>
+	      <value>127</value>
+	      <maximum>127</maximum>
+	      <widgetID>menu_slider</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_check_slider</itemLayout>
+	  <itemName>TransCryo</itemName>
+	  <label>Control visibility of the Cryostat</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      	<type>checkbox</type>
+		<text>Cryo</text>
+		<state>true</state>
+		<widgetID>state_check</widgetID>
+	    </widget>
+
+	    <widget>
+	      <type>slider</type>
+	      <text>Cryo</text>
+	      <value>127</value>
+	      <maximum>127</maximum>
+	      <widgetID>menu_slider</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_check_slider</itemLayout>
+	  <itemName>TransYoke</itemName>
+	  <label>Control visibility of the Yoke</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      	<type>checkbox</type>
+		<text>Yoke</text>
+		<state>true</state>
+		<widgetID>state_check</widgetID>
+	    </widget>
+
+	    <widget>
+	      <type>slider</type>
+	      <text>Yoke</text>
+	      <value>127</value>
+	      <maximum>127</maximum>
+	      <widgetID>menu_slider</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_check_slider</itemLayout>
+	  <itemName>TransCaps</itemName>
+	  <label>Control visibility of the Endcaps</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      	<type>checkbox</type>
+		<text>Caps</text>
+		<state>true</state>
+		<widgetID>state_check</widgetID>
+	    </widget>
+
+	    <widget>
+	      <type>slider</type>
+	      <text>Caps</text>
+	      <value>127</value>
+	      <maximum>127</maximum>
+	      <widgetID>menu_slider</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_check_slider</itemLayout>
+	  <itemName>TransAxes</itemName>
+	  <label>Control visibility of the Coordinate Axes</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      	<type>checkbox</type>
+		<text>Axes</text>
+		<state>true</state>
+		<widgetID>state_check</widgetID>
+	    </widget>
+
+	    <widget>
+	      <type>slider</type>
+	      <text>Axes</text>
+	      <value>127</value>
+	      <maximum>127</maximum>
+	      <widgetID>menu_slider</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+      </items>
+
+      <!-- End of the Graphic Controls group -->
+    </group>
+
+    <!-- Begin Views group -->
+    <group>
+      <title>Views</title>
+      <groupLayout>list_group</groupLayout>
+      <textViewID>list_group_header</textViewID>
+      <iconID>list_group_icon</iconID>
+      <groupEnabled>true</groupEnabled>
+
+      <items>
+
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>Home</itemName>
+	  <label>Reset to initial view</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Home</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>XYView</itemName>
+	  <label>Look down the Z-axis at the X-Y Plane</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>XY View</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>YZView</itemName>
+	  <label>Look down the X-axis at the Y-Z Plane</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>YZ View</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+      </items>
+      <!-- End of the Views group -->
+    </group>
+
+    <!-- Settings Group -->
+    <group>
+      <title>Settings</title>
+      <groupLayout>list_group</groupLayout>
+      <textViewID>list_group_header</textViewID>
+      <iconID>list_group_icon</iconID>
+      <groupEnabled>true</groupEnabled>
+
+      <items>
+
+	<item>         <!-- Visual controls label -->
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>VisualControls</itemName>
+	  <label>display options</label>
+	  <itemEnabled>true</itemEnabled>
+	  <selectable>false</selectable>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Visual Controls</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+
+	</item>
+
+	<item>          <!-- Zoom control -->
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>ZoomSpeed</itemName>
+	  <label>Control visual zooming</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>8</value>
+	      <maximum>48</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>zoomSpeed</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Zoom Speed</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>          <!-- Rotation control -->
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>RotateSpeed</itemName>
+	  <label>Control visual rotation</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>249</value>
+	      <maximum>499</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>rotationSpeed</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Rotation Speed</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>          <!-- Track Resolution -->
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>Resolution</itemName>
+	  <label>Number of points per track</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>3</value>
+	      <maximum>9</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>resolution</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Resolution</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>          <!-- Line Width -->
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>LineWidth</itemName>
+	  <label>Pixel width of the lines</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>15</value>
+	      <maximum>40</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>lineWidth</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Line Width</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>          <!--Maximum tracking time -->
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>MaxTime</itemName>
+	  <label>How long in ns to track particles</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>25</value>
+	      <maximum>100</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>maxTime</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Max Time</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+
+	<item>          <!-- Database controls -->
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>DBControls</itemName>
+	  <label>database_options</label>
+	  <itemEnabled>true</itemEnabled>
+	  <selectable>false</selectable>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Database Controls</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>         <!-- DB Save -->
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>eventSave</itemName>
+	  <label>Save this event</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Save Event</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>         <!-- DB Delete -->
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>eventDelete</itemName>
+	  <label>Delete this event</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Delete Event</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>          <!-- DB Size -->
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>MaxEvents</itemName>
+	  <label>Maximum number of events to store locally</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>1</value>
+	      <maximum>100</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>maxEvents</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Maximum Events</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>         <!-- DB Clear -->
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>dbClear</itemName>
+	  <label>Expunge the DB</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Clear Database</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+
+
+	<!--
+	<item>          Animation controls label
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>AnimationControls</itemName>
+	  <label>animatino options</label>
+	  <itemEnabled>true</itemEnabled>
+	  <selectable>false</selectable>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Animation Controls</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>          Animation Time
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>AnimationTime</itemName>
+	  <label>How long (wall clock) to run an animation</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>15</value>
+	      <maximum>50</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>animationTime</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Animation Time</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>          Frame Rate
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>FrameRate</itemName>
+	  <label>Target frame rate for animations</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>5</value>
+	      <maximum>25</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>frameRate</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Frame Rate</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	-->
+
+
+	<item>         <!-- Debugging Label -->
+	  <itemLayout>list_item_text</itemLayout>
+	  <itemName>DebugLabel</itemName>
+	  <label>Verbosity</label>
+	  <itemEnabled>true</itemEnabled>
+	  <selectable>false</selectable>
+
+	  <widgets>
+	    <widget>
+	      <type>text</type>
+	      <text>Debugging</text>
+	      <widgetID>textBox</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+	<item>          <!--Debugging Level -->
+	  <itemLayout>list_item_slider</itemLayout>
+	  <itemName>DebugLevel</itemName>
+	  <label>How verbose to be when debugging</label>
+	  <itemEnabled>true</itemEnabled>
+
+	  <widgets>
+	    <widget>
+	      <type>slider</type>
+	      <value>0</value>
+	      <minimum>-1</minimum>
+	      <maximum>4</maximum>
+	      <widgetID>menu_slider</widgetID>
+	      <text>debugLevel</text>
+	    </widget>
+
+	    <widget>
+	      <type>text</type>
+	      <text>Debug Verbosity</text>
+	      <widgetID>slider_title</widgetID>
+	    </widget>
+	  </widgets>
+	</item>
+
+      </items>
+    </group>
+    <!-- End of Settings Group -->
+
+  </groups>
+
+<!-- End of the Controls list -->
+</list>
